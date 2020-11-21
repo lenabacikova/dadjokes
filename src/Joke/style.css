@@ -6,6 +6,25 @@ html {
   font-family: sans-serif;
 }
 
+.container {
+  max-width: 30rem;
+  margin: 5rem auto;
+}
+
+.joke {
+  margin-bottom: 2rem;
+}
+
+.joke__body {
+  display: flex;
+}
+
+.joke__user {
+  flex: 0 0 auto;
+  width: 5rem;
+  height: 5rem;
+  margin-right: 1rem;
+}
 
 .user-avatar {
   width: 5rem;
@@ -67,4 +86,3 @@ html {
 .btn-like--down {
   background-color: #ff5654;
   background-image: url('img/like-down.png');
-}
