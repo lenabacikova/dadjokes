@@ -38,8 +38,8 @@ const jokes = [
     name: 'liness',
     text:
       'My daughter screeched, "Daaaaaad, you haven\'t listened to one word I\'ve said, have you!?" What a strange way to start a conversation with me...',
-    likes: 90,
-    dislikes: 44,
+    likes: 2,
+    dislikes: 5,
   },
   {
     id: 'user06',
@@ -70,8 +70,8 @@ const jokes = [
     name: 'GreatEvil',
     text:
       'The fattest knight at King Arthur’s round table was Sir Cumference. He acquired his size from too much pi.',
-    likes: 42,
-    dislikes: 9,
+    likes: 5,
+    dislikes: 46,
   },
 ];
 

@@ -9,7 +9,7 @@ import jokes from './jokes.js';
 
 const App = () => {
   return (
-    <div>
+  <div className="container">
       {jokes.map((joke) => (
         <Joke 
           id={joke.id}
@@ -19,7 +19,7 @@ const App = () => {
           dislikes={joke.dislikes}
         />
         ))}
-    </div>
+  </div>
 )
 }
 render(<App />, document.querySelector('#app'));
